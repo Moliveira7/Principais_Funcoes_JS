@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>Funções</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="cabecalho">
+        <div class="logoHeader">            
+            <img src="img/cinema.png" width="auto" height="100px" alt="Logo de figuras sobre cinema" class="container__logo-cinema">
+        </div>
+
+        <!-- Menu para telas maiores que 834px -->
+        <nav class="lista"> 
+            <ul class="lista-menu">                
+                <li><button class="btn btn-acao" href="#" id="btnFiltrarFilmesDeAcao" value="Ação">AÇÃO</button></li>                    
+                <li><button class="btn btn-comedia" href="#" id="btnFiltrarFilmesDeComedia" value="Comédia">COMÉDIA</button></li>
+                <li><button class="btn btn-infantil" href="#" id="btnFiltrarFilmesInfantil" value="Infantil">INFANTIL</button></li>
+                <li><button class="btn btn-series" href="#" id="btnFiltrarSeries" value="Séries">SERIES</button></li>                    
+                <li><button class="btn btn-disponiveis" href="#" id="btnfilmesEseries" value="disponivel">FILMES & SERIES DISPONÍVEIS</button></li>
+                <li><button class="btn btn-ordenarPorPreco" href="#" id="btnOrdenarPorPreco2" value="Séries">ORDENAR POR PREÇO</button></li>
+                
+              </ul>
+            </nav>
+    </header>
+
+     <!-- Menu Lateral visivel para telas menores que 834px -->
+    <aside class="menu__lateral">
+        <ul class="menu__lista"> 
+
+            <li><button class="btn btn-acao" href="#" id="btnFiltrarFilmesDeAcao" value="Ação"><img class="btn-image" src="./img/icones/action-movies.svg" alt="simbolo de um filme de ação"></button></li>                    
+            <li><button class="btn btn-comedia" href="#" id="btnFiltrarFilmesDeComedia" value="Comédia"><img class="btn-image" src="./img/icones/comedy-movies.svg" alt="um rosto de emoticons feliz"></button></li>
+            <li><button class="btn btn-infantil" href="#" id="btnFiltrarFilmesInfantil" value="Infantil"><img class="btn-image" src="./img/icones/kids-movies.svg" alt="simbolo de um filme infantil"></button></li>
+            <li><button class="btn btn-series" href="#" id="btnFiltrarSeries" value="Séries"><img class="btn-image" src="./img/icones/series.svg" alt="simbolo de disponivel"></button></li>                    
+            <li><button class="btn btn-disponiveis" href="#" id="btnfilmesEseries" value="disponivel"><img class="btn-image" src="./img/icones/available.svg" alt="simbolo de disponivel"></button></li>
+            <li><button class="btn btn-ordenarPorPreco" href="#" id="btnOrdenarPorPreco" value="Séries"><img class="btn-image" src="./img/icones/by-price.svg" alt="simbolo de cifrão de dinheiro apontado para baixo"></button></li>
+
+        </ul>
+    </aside>
+
+    <!-- Principal -->
+    <main>
+        
+        <section class="filmes wrap" id="filmes">
+            
+        </section>
+
+        <section id="valor_total_Filmes_disponiveis">
+            <div class="filmes__disponiveis">
+                <p>Todos os filmes disponíveis por R$ <span id="valor">299,00</span></p>
+            </div>
+        </section>        
+                
+    </main>
+    
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <img class="rodape__logo" src="./img/Logo_Md2One.svg" width="20%" height="20%" alt="Logo Md2One">
+        <p class="rodape__copyright">&copy; Copyright Miqueias dOliveira - 2023
+    </footer>
+
+    <!-- Importação das funções .js -->
+    <script src="app/main.js"></script>
+    <script src="app/metodoForEach.js"></script>
+    <script src="app/metodoMap.js"></script>
+    <script src="app/metodoFilter.js"></script>
+    <script src="app/metodoSort.js"></script>
+    <script src="app/metodoReduce.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+header{
+    background: var(--preto-degrade);
+    width: 100%;
+}
+
+.btn-image {
+    width: 2.5rem;    
+}
+.btn:hover {
+    background: var(--vermelho-degrade);
+    color: var(--preto);
+    border-radius: 10px;
+    border-bottom: 2px solid var(--preto);                     
+           
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+.container__logo-cinema {
+    padding: 1em;
+    text-decoration: none;
+}
+
+.lista {
+    display: none;
+}
+
+// Menu Lateral visivel para telas menores que 834px 
+.menu__lateral {
+    position: fixed;
+    bottom: 0;
+    height: 74px;
+    width: 100%;
+    /* overflow: scroll; */
+}
+
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+}
+
+@media (min-width: 834px) {
+    .lista {
+        display: block;
+    }
+
+    .menu__lateral {
+        display: none;
+    }
+
+    .cabecalho {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .lista-menu {
+        display: flex;
+
+    }
+    .btn {
+        background: transparent;
+        color: var(--branco);
+        white-space: nowrap;
+        width: 100%;
+        height: 100%;
+        margin: 10px 5px;
+        gap:10px;
+        font-size: 12px;                 
+        justify-content: space-around;
+        border: none;        
+    }
+    .btn:hover {
+        background: var(--vermelho-degrade);
+        color: var(--preto);
+        border-radius: 10px;
+        border-bottom: 2px solid var(--preto);                     
+               
+    }
+
+
+}

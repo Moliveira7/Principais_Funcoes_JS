@@ -1,0 +1,19 @@
+@import url("styles/header.css");
+@import url("styles/footer.css");
+@import url("styles/main.css");
+
+:root {
+    --preto-degrade: linear-gradient(#000000,#696969);
+    --vermelho-degrade: linear-gradient(#FF0000,#000000);
+    --text-title-color: #FF8C00;
+    --branco: #FFFFFF;
+    --preto: #000000;    
+    --cinza: #4F4F4F;
+    --verde: #006400
+}
+
+
+
+
+
+

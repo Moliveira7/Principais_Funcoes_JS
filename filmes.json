@@ -1,0 +1,155 @@
+[
+    {
+        "titulo": "Aquaman e o Reino Perdido",
+        "preco": "25.90",
+        "diretor": "James Wan",
+        "imagem": "img/acao/Aquaman-e-o-Reino-Perdido.png",
+        "alt": "Ator principal Jason Momoa com a roupa do Aquaman e segurando um tridente",
+        "quantidade": 50,
+        "categoria": "Ação"
+    },
+    {
+        "titulo": "Cidade Perdida",
+        "preco": "32.15",
+        "diretor": "Aaron Nee, Adam Nee",
+        "imagem": "img/comedia/Cidade-Perdida.png",
+        "alt": "Os autores Sandra Bullock e Channing Tatum e ao fundo uma selva",
+        "quantidade": 8,
+        "categoria": "Comédia"
+    },
+    {
+        "titulo": "Ingresso para o Paraíso",
+        "preco": "18.75",
+        "diretor": "Oliver Parker",
+        "imagem": "img/comedia/Ingresso-para-o-Paraiso.png",
+        "alt": "Os atores George Clooney e Julia Roberts vestidos de roupa social e no fundo arvores",
+        "quantidade": 11,
+        "categoria": "Comédia"
+    },   
+    {
+        "titulo": "Tudo em Todo o Lugar ao Mesmo Tempo",
+        "preco": "32.12",
+        "diretor": "Daniel Kwan e Daniel Scheinert",
+        "imagem": "img/comedia/Tudo-em-Todo-o-Lugar-ao-Mesmo-Tempo.png",
+        "alt": "varias coisas acontecendo e uma mulher no centro com as mãos abertas",
+        "quantidade": 0,
+        "categoria": "Comédia"
+    },
+    {
+        "titulo": "A Pequena Sereia",
+        "preco": "23.10",
+        "diretor": "Rob Marshall",
+        "imagem": "img/infantil/A-Pequena-Sereia.png",
+        "alt": "imagem da pequena sereia sentada no fundo mar olhando para cima",
+        "quantidade": 8,
+        "categoria": "Infantil"
+    },
+    {
+        "titulo": "Fera do Mar",
+        "preco": "18.15",
+        "diretor": "Chris Williams ",
+        "imagem": "img/infantil/Fera-do-Mar.png",
+        "alt": "imagem da criança segurando a fera do mar bebê de cor azul",
+        "quantidade": 0,
+        "categoria": "Infantil"
+    },   
+    {
+        "titulo": "As Marvels",
+        "preco": "16.14",
+        "diretor": "Nia DaCosta",
+        "imagem": "img/acao/As-Marvels.png",
+        "alt": "imagem escrita The Marvels",
+        "quantidade": 10,
+        "categoria": "Ação"
+    },      
+    {
+        "titulo": "Resgate 2",
+        "preco": "21.12",
+        "diretor": "Sam Hargrave",
+        "imagem": "img/acao/Resgate-2.png",
+        "alt": "imagem do ator Chris Hemsworth vestido de soldado e ao fundo neve caindo",
+        "quantidade": 19,
+        "categoria": "Ação"
+    },
+     {
+        "titulo": "A Lenda de Shahmaran, Umur Turagay e Bertan Basaran",
+        "preco": "20.22",
+        "diretor": "Timur Savc e Burak Sağyaşar",
+        "imagem": "img/series/A-Lenda-de-Shahmaran-Umur-Turagay-e-Bertan-Basaran.png",
+        "alt": "imagem da atriz principal com vestido segurando um balde segurando em cada mão e ao fundo sucatas",
+        "quantidade": 22,
+        "categoria": "Séries"
+    },
+     {
+        "titulo": "Caleidoscópio",
+        "preco": "20.23",
+        "diretor": "Eric Garcia",
+        "imagem": "img/series/Caleidoscopio.png",
+        "alt": "imagem da atriz principal com uma arma apontada para frente da tela",
+        "quantidade": 0,
+        "categoria": "Séries"
+    },
+     {
+        "titulo": "Sobreviventes",
+        "preco": "20.27",
+        "diretor": "Grant Kahler",
+        "imagem": "img/series/Sobreviventes.png",
+        "alt": "imagem do casal principal caminhando numa planice montanhosa",
+        "quantidade": 10,
+        "categoria": "Séries"
+    },   
+    {
+        "titulo": "O Homem de Toronto",
+        "preco": "21.22",
+        "diretor": "Patrick Hughes",
+        "imagem": "img/comedia/O-Homem-de-Toronto.png",
+        "alt": "os atores Kevin Hart e Woody Harrelson dentro da cabine de um avião, olhando para trás da cabine",
+        "quantidade": 0,
+        "categoria": "Comédia"
+    },
+    {
+        "titulo": "The Last of Us",
+        "preco": "15.23",
+        "diretor": "Naughty Dog",
+        "imagem": "img/series/The-Last-of-Us.png",
+        "alt": "imagem do casal principal olhando para frente da tela e ao fundo escrito The last of us",
+        "quantidade": 7,
+        "categoria": "Séries"
+    },
+    {
+        "titulo": "John Wick 4: Baba Yaga",
+        "preco": "23.20",
+        "diretor": "Chad Stahelski",
+        "imagem": "img/acao/John-Wick-4-Baba-Yaga.png",
+        "alt": "imagem do ator principal e ao fundo escrito JW4 tudo em formato de desenho",
+        "quantidade": 19,
+        "categoria": "Ação"
+    },
+    {
+        "titulo": "Homem-Aranha: Através do Aranhaverso",
+        "preco": "16.15",
+        "diretor": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+        "imagem": "img/infantil/Homem-Aranha-no-Aranhaverso.png",
+        "alt": "imagem dos três principais personagens do desenho e ao fundo predios iluminados",
+        "quantidade": 5,
+        "categoria": "Infantil"
+    },
+    {
+        "titulo": "O Peso do Talento",
+        "preco": "22.10",
+        "diretor": "Tom Gormican",
+        "imagem": "img/comedia/O-Peso-do-Talento.png",
+        "alt": "os três atores principais do filme e no fundo o mar com um iate explodindo",
+        "quantidade": 0,
+        "categoria": "Comédia"
+    },
+    {
+        "titulo": "Duna 2",
+        "preco": "25.30",
+        "diretor": "Denis Villeneuve",
+        "imagem": "img/acao/Duna-2.png",
+        "alt": "imagem dos quatros principais personagens e ao fundo um deserto",
+        "quantidade": 10,
+        "categoria": "Ação"
+    }
+]
