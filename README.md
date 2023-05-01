@@ -28,7 +28,7 @@ Projeto desenvolvido no intuito de mostrar o uso dos principais métodos de arra
  
 <h2> 📁 Acesso ao projeto</h2>
 
-https://moliveira7.github.io/Principais_Funcoes_JS/
+https://moliveira7.github.io/Principais_Metodos_deArrays_em_JS/
 
 
 <h2> 🛠 Tecnologias </h2>
