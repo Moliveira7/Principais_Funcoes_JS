@@ -11,14 +11,20 @@
  
 <h2>Descrição do Projeto</h2>
 
-Projeto desenvolvido no intuito de mostrar o uso dos principais metodos de arrays em javaScript, sendo elas Map, Filter, Reduce, ForEach e Sort, onde a base para o uso das mesmas foi consultado na seguinte documentação :<br>(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)  
+Projeto desenvolvido no intuito de mostrar o uso dos principais métodos de arrays em javaScript, sendo esses Map, Filter, Reduce, ForEach e Sort, também foi desenvolvido para ser responsível para telas menores que 834px e maiores que a mesma, onde a base para o uso dos mesmos foi consultado na seguinte documentação :<br>https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map, 
 
 <h2> :hammer: Funcionalidades do projeto</h2>
 
-- `Funcionalidade 1`: Aplicação do metodo Map pode ser notado no projeto ao 
-- `Funcionalidade 2`: 
-- `Funcionalidade 3`: 
-- `Funcionalidade 4`: 
+- `Funcionalidade 1`: Aplicação do método **map** pode ser notado no projeto, logo ao iniciar onde foi aplicado um desconto de 3%, e para mostrar esses novos 
+                      arrays com os descontos usou-se o metodo map.
+                      
+- `Funcionalidade 2`: O método **filter** foi usado para filtrar os filmes por categorias e quantidades maior que zero, onde nota-se ao clicar nos botões de categorias: Ação, Comédia, Infantil e Séries e no botão Filmes & Séries disponiveis, mostra ambos filtrados pela quantidade maior que zero.
+
+- `Funcionalidade 3`: Para o método **forEach** esse faz a inserção dos filmes no html, onde esses estão no arquivo filmes.json
+
+- `Funcionalidade 4`: No método **reduce** foi usado para calcular os valores total do filmes e séries que estão disponiveis, quando clicado no botão Filmes & Séries   disponiveis 
+
+- `Funcionalidade 5`: E por fim no método **sorte** foi usado para ordenar os preços, neste caso em ordem crescente, notando-se ao clicar no botão ordenar por preço
  
 <h2> 📁 Acesso ao projeto</h2>
 
